@@ -27,5 +27,10 @@ def find_a(array)
   array.select {|num| num[0].include?("a")== true}
 end
 
-def sum_array(array) 
+def sum_array(array)
+  array.inject do |sum, sum|
+    sum + sum 
+  end
+end
+
 
