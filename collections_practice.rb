@@ -33,4 +33,11 @@ def sum_array(array)
   end
 end
 
+def add_s(array)
+  array.collect_with_index |element, index|
+  if index == 1 
+    return word 
+  else word + "s"
+end
+end
 
