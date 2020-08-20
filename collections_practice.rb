@@ -27,3 +27,5 @@ def find_a(array)
   array.select {|num| num[0].include?("a")== true}
 end
 
+def sum_array(array) 
+
